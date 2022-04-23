@@ -35,10 +35,10 @@
 // | _     |  _     |  RET   |
 // -----------------------
             bindings = <
-    &bt BT_NXT &kp HOME &kp PG_UP
-    &bt BT_PRV &kp END  &kp PG_DN
-    &bt BT_CLR &trans   &trans
-    &trans     &trans   &kp RET
+    &kp HOME   &bt BT_NXT  &kp PG_UP
+    &trans     &bt BT_PRV  &trans 
+    &kp End    &bt BT_CLR  &kp PG_DN
+    &trans     &trans     5 &kp DEL
             >;
         };
     };
