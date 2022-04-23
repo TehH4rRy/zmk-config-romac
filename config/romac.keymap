@@ -38,7 +38,7 @@
     &kp HOME   &bt BT_NXT  &kp PG_UP
     &trans     &bt BT_PRV  &trans 
     &kp End    &bt BT_CLR  &kp PG_DN
-    &trans     &trans     5 &kp DEL
+    &trans     &kp INS     &kp DEL
             >;
         };
     };
